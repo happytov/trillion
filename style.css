@@ -1,0 +1,251 @@
+
+* {
+padding: 0;
+margin: 0;
+
+list-style: none;
+box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+text-decoration: none;
+background: #d0841f;
+height: 80px;
+width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 18px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+sub {
+    font-size: 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background: orange;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #d2a679;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover, a.active {
+        background: none;
+        color: brown;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+h1 {
+    background-color: purple;
+    height: 80px;
+    width: 100%;
+    color: white;
+    font-size: 32px;
+
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+.red-container {
+    position: relative;
+    text-align: center;
+
+}
+
+.red {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    padding: 15px;
+}
+
+.orange-container {
+    position: relative;
+    text-align: center;
+
+}
+
+.orange {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    padding: 15px;
+}
+
+.yellow-container {
+    position: relative;
+    text-align: center;
+}
+
+.yellow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    padding: 15px;
+}
+
+.demonocracy {
+
+}
+
+section {
+    background: url("images/rose.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+
+}
+
+h2 {
+    padding-top: 25px;
+}
+
+/*
+h1 {
+    text-align: center;
+    font-family:consolas;
+    font-size: 32px;
+    background-color: tan;
+    height: 150px;
+    border: 4px red dotted;
+
+} */
+.grid-container {
+
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+  row-gap: 45px;
+  align-items: stretch;
+  padding: 25px;
+
+}
+.grid-container2 {
+
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: left;
+  row-gap: 45px;
+  align-items: left;
+
+.grid-container img {
+    border-style: solid;
+    width: 50%;
+    height: 100%;
+    border-color: #8BC34A;
+    border-width: thick;
+    padding: 8px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: 25px;
+   font-family:Arial, sans-serif;
+}
+
+
+
+p{
+    text-align:left;
+}
+
+div{
+    display: inline-block;
+}
+
+main{
+  /* Set the display display */
+  
+  /* Set the template columns */
+
+  /* Set the justification  */
+  
+}
+
