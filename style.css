@@ -240,6 +240,21 @@ div{
     display: inline-block;
 }
 
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
 main{
   /* Set the display display */
   
