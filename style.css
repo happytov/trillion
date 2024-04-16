@@ -11,9 +11,7 @@ body {
     font-family: montserrat;
 }
 
-:nth-child(2) {
-  background: yellow;
-}
+
 
 nav {
 text-decoration: none;
