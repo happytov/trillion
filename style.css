@@ -55,10 +55,15 @@ a.active, a:hover {
 
 .textingImage {
     
-  width: 300px;
+  width: 900px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+
+}
+.textingImage img {
+    
+  border-radius: 8px;
 
 }
 
