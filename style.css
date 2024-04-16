@@ -53,6 +53,15 @@ a.active, a:hover {
     transition: .5s;
 }
 
+.textingImage {
+    
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+}
+
 .checkbtn {
     font-size: 30px;
     color: white;
