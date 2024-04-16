@@ -67,6 +67,10 @@ a.active, a:hover {
 
 }
 
+.flex-container:nth-child(2) {
+    border-radius: 16px;
+}
+
 .checkbtn {
     font-size: 30px;
     color: white;
