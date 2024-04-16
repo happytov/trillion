@@ -240,7 +240,7 @@ div{
     display: inline-block;
 }
 
-.skip {
+a.skip {
   position: absolute;
   left: -10000px;
   top: auto;
@@ -249,7 +249,7 @@ div{
   overflow: hidden;
 }
 
-.skip:focus {
+a.skip:focus {
   position: static;
   width: auto;
   height: auto;
